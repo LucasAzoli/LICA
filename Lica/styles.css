@@ -1,3 +1,4 @@
+/* ----- Global ----- */
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +12,13 @@
     margin: auto;
 }
 
-/* Navbar style */
+/* ----- Navbar ----- */
 .navbar {
     position: fixed;
     width: 100%;
     padding: 15px 0;
     background: white;
-    font-family:unset;
+    font-family: unset;
     transition: all 0,3s ease;
     border-bottom: 2px solid #D3D3D3;
 }
@@ -28,6 +29,11 @@
 }
 
 .navbar.sticky .logo a {
+    color: #F1FAEE;
+    transition: all 0,3s ease;
+}
+
+.navbar.sticky .menu li a {
     color: #F1FAEE;
     transition: all 0,3s ease;
 }
@@ -62,7 +68,7 @@
 }
 
 
-/* home section style */
+/* ----- Home ----- */
 .home {
     display: flex;
     height: 100vh;
@@ -81,41 +87,87 @@
     color: #1D3557;
 }
 
-.home .home-content .text-1 {
+.home .home-content p.text-1 {
     font-size: 40px;
 }
 
-.home .home-content .text-2 {
+.home .home-content p.text-2 {
     font-size: 80px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home .home-content .text-3 {
+.home .home-content p.text-3 {
     color: #F1FAEE;
     font-size: 25px;
-    margin: 5px 0;
     text-align: center;
     width: 150px;
     height: 35px;
     background-color: #1865F2;
     border-radius: 7px;
-    padding: 3px;
+    padding: 5px;
 }
 
-/* app section style */
+/* ----- App ----- */
 .app {
     display: flex;
-    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
     color: #457B9D;
-    min-height: 500px;
     background-color: #F1FAEE;
     font-size: 70px;
-}
-
-.app-content{
-    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    justify-content: center;
     align-items: center;
 }
+
+.app .app-content {
+    margin-left: 10%;
+}
+
+.app .app-content h2 {
+    color: #457B9D;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app .app-content p {
+    color: #457B9D;
+    font-size: 20px;
+    text-align: center;
+    width: 450px;
+    padding-bottom: 100px;
+}
+
+
+/* ----- Curses ----- */
+.curses {
+    background-color: #E3ECEA;
+    min-height: 500px;
+    height: 100vh;
+    min-height: 500px;
+}
+
+/* ----- Team ----- */
+.team {
+    background-color: #F1FAEE;
+    min-height: 500px;
+    height: 100vh;
+    min-height: 500px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    height: 80px;
+    background: #1D3557;
+    color: #F1FAEE;
+}
+
+footer p {
+    font-size: 15px;
+    padding: 20px;
+}
+
