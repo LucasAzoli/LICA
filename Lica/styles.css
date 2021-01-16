@@ -102,17 +102,6 @@ h2 {
     margin-left: -3px;
 }
 
-.home .home-content p.text-3 {
-    color: #F1FAEE;
-    font-size: 25px;
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    background-color: #1865F2;
-    border-radius: 7px;
-    padding: 5px;
-}
-
 /* ----- App ----- */
 .app {
     display: flex;
@@ -128,7 +117,7 @@ h2 {
 }
 
 .app .app-content {
-    margin-left: 10%;
+    margin-left: 200px;
 }
 
 .app .app-content h2 {
@@ -141,8 +130,8 @@ h2 {
 .app .app-content p {
     color: #457B9D;
     font-size: 20px;
-    text-align: center;
-    width: 450px;
+    text-align: justify;
+    width: 370px;
     padding-bottom: 100px;
 }
 
@@ -152,8 +141,40 @@ h2 {
     background-color: #E3ECEA;
     min-height: 500px;
     height: 100vh;
-    min-height: 500px;
 }
+
+.curses h2 {
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.curses .curses-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curses .card {
+    margin: 0 40px 0 40px;
+    width: 350px;
+    height: 300px;
+    background-color: #F1FAEE;
+    box-shadow: 1.5px 1.5px  grey;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.curses h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #1D3557;
+    margin-top: 20px;
+}
+
 
 /* ----- Team ----- */
 .team {
@@ -162,15 +183,33 @@ h2 {
     min-height: 500px;
 }
 
+.team h2 {
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
 .team .team-content {
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.team h2 {
+.team .card {
+    margin: 0 25px 0 25px;
+    width: 220px;
+    height: 300px;
+    background-color: #E3ECEA;
+    box-shadow: 1.5px 1.5px  grey;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+
+.team h3 {
+    margin-top: 8px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    color: #1D3557;
 }
 
 .team p {
@@ -183,58 +222,14 @@ h2 {
     border-radius: 50%;
 }
 
-.team .abner {
-    width: 250px;
-    height: 300px;
-    background-color: #E3ECEA;
-    border: 1px solid #1D3557;
-    border-radius: 8px;
-    padding: 25px;
-}
 
-.team .carlos {
-    height: 300px;
-    width: 250px;
-    background-color: #E3ECEA;
-    border: 1px solid #1D3557;
-    border-radius: 8px;
-    padding: 25px;
-}
-
-.team .isis {
-    height: 300px;
-    width: 250px;
-    background-color: #E3ECEA;
-    border: 1px solid #1D3557;
-    border-radius: 8px;
-    padding: 25px;
-}
-
-.team .lucasa {
-    height: 300px;
-    width: 250px;
-    background-color: #E3ECEA;
-    border: 1px solid #1D3557;
-    border-radius: 8px;
-    padding: 25px;
-}
-
-
-.team .lucass {
-    height: 300px;
-    width: 250px;
-    background-color: #E3ECEA;
-    border: 1px solid #1D3557;
-    border-radius: 8px;
-    padding: 25px;
-}
 
 
 
 /* ----- Footer ----- */
 
 footer {
-    height: 80px;
+    height: 60px;
     background: #1D3557;
     color: #F1FAEE;
 }
