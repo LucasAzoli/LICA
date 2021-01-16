@@ -12,6 +12,11 @@
     margin: auto;
 }
 
+h2 {
+    color: #457B9D;
+    font-size: 40px;
+}
+
 /* ----- Navbar ----- */
 .navbar {
     position: fixed;
@@ -153,10 +158,78 @@
 /* ----- Team ----- */
 .team {
     background-color: #F1FAEE;
-    min-height: 500px;
     height: 100vh;
     min-height: 500px;
 }
+
+.team .team-content {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.team p {
+    color: #457B9D;
+    font-size: 20px;
+    text-align: center;
+}
+
+.team img {
+    border-radius: 50%;
+}
+
+.team .abner {
+    width: 250px;
+    height: 300px;
+    background-color: #E3ECEA;
+    border: 1px solid #1D3557;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.team .carlos {
+    height: 300px;
+    width: 250px;
+    background-color: #E3ECEA;
+    border: 1px solid #1D3557;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.team .isis {
+    height: 300px;
+    width: 250px;
+    background-color: #E3ECEA;
+    border: 1px solid #1D3557;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.team .lucasa {
+    height: 300px;
+    width: 250px;
+    background-color: #E3ECEA;
+    border: 1px solid #1D3557;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+
+.team .lucass {
+    height: 300px;
+    width: 250px;
+    background-color: #E3ECEA;
+    border: 1px solid #1D3557;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+
 
 /* ----- Footer ----- */
 
