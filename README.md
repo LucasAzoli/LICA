@@ -1,2 +1,4 @@
 # LICA
- Project to Hackthon CCR 2021
+Landing page criada para o projeto
+LICA desenvolvido na segunda edição
+do Hackaton CCR.
